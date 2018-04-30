@@ -6,8 +6,8 @@ namespace StringPerformance
     {
         private static void Main(string[] args)
         {
-            BenchmarkRunner.Run<StringAddition>();
-            BenchmarkRunner.Run<StringCompare>();
+            //BenchmarkRunner.Run<StringAddition>();
+            //BenchmarkRunner.Run<StringCompare>();
             BenchmarkRunner.Run<StringContain>();
         }
     }
